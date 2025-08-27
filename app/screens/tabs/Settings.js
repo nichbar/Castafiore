@@ -116,6 +116,11 @@ const Settings = ({ navigation }) => {
 						onPress={() => navigation.navigate('Settings/Shares')}
 					/>
 					<ButtonMenu
+						title={t("Logs")}
+						icon="file-text"
+						onPress={() => navigation.navigate('Settings/Logs')}
+					/>
+					<ButtonMenu
 						title={t("Informations")}
 						icon="info"
 						onPress={() => navigation.navigate('Settings/Informations')}
