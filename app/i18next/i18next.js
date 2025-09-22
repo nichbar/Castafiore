@@ -6,6 +6,8 @@ import it from './it.json';
 import fr from './fr.json';
 import ru from './ru.json';
 import de from './de.json';
+import es from './es.json';
+import ca from './ca.json';
 import zhHans from './zh-Hans.json';
 import zhHant from './zh-Hant.json';
 
@@ -18,6 +20,8 @@ i18n.use(initReactI18next).init({
     fr: fr,
     ru: ru,
     de: de,
+    ca: ca,
+    es: es,
     zhHans: zhHans,
     zhHant: zhHant,
   },
@@ -27,3 +31,4 @@ i18n.use(initReactI18next).init({
 });
 
 export default i18n;
+
